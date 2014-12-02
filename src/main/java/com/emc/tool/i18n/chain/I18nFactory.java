@@ -25,6 +25,7 @@ public class I18nFactory {
 		handerInvoker.addAttributeHandler(new TitleAttributeHandler());
 		handerInvoker.addAttributeHandler(new HeaderTextAttributeHandler());
 		handerInvoker.addAttributeHandler(new TextAttributeHandler());
+		handerInvoker.addAttributeHandler(new NameAttributeHandler());
 
 		// ...
 	}
